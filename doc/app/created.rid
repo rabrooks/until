@@ -1,0 +1,6 @@
+Sun, 13 Oct 2013 23:56:34 -0500
+README.rdoc	Fri, 11 Oct 2013 21:49:54 -0500
+app/controllers/application_controller.rb	Fri, 11 Oct 2013 21:49:54 -0500
+app/controllers/welcome_controller.rb	Fri, 11 Oct 2013 21:54:13 -0500
+app/helpers/application_helper.rb	Fri, 11 Oct 2013 21:49:54 -0500
+app/helpers/welcome_helper.rb	Fri, 11 Oct 2013 21:54:13 -0500
