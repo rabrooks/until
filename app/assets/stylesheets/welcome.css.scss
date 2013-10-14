@@ -1,0 +1,93 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+.until-week {
+  width: 100%;
+}
+.until-day {
+  background-color: red;
+  width: 13.8%;
+  height: 125px;
+  margin: 1px;
+  padding: 5px;
+  color:white;
+  float:left;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px #222;
+}
+
+.until-day:hover {
+  border: 1px solid blue;
+
+}
+
+.until-day-header {
+  width: 100%;
+}
+
+.until-day-title {
+    background-color: #333;
+    width: 13.8%;
+    height: 55px;
+    margin: 1px;
+    float:left;
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+}
+
+.day-inactive {
+  opacity: .55;
+}
+
+// Calendar Navigation
+
+.cal-nav {
+  width: 100%;
+  height: 90px;
+  position: relative;
+}
+
+.cal-prev {
+  display:inline-block;
+  position:absolute;
+  line-height: 90px;
+  left:8%;
+  top:0px;
+}
+
+.cal-next {
+  display:inline-block;
+  position:absolute;
+  line-height: 90px;
+  right:8%;
+  top:0px;
+}
+
+.cal-month {
+  display:inline-block;
+  position:absolute;
+  line-height: 90px;
+  left: 36%;
+  top:0;
+  font-size: 2.5em;
+}
+
+.cal-year {
+  display:inline-block;
+  position:absolute;
+  line-height: 90px;
+  right: 41%;
+  top:0;
+  font-size: 2.5em;
+}
+
+.cal-year, .cal-month, .cal-next, .cal-prev {
+  position:absolute;
+  line-height: 90px;
+  display: inline-block;
+}
